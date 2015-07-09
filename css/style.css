@@ -1,0 +1,209 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+
+body{
+	background-image: url('../image/back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: scroll; 
+}
+
+nav{
+	position: fixed;
+	overflow-y: scroll; 
+	width: 300px;
+	height: 100%;
+	background-color: #1abc9c;
+	left: -300px;
+	-webkit-transition: left 0.7s;
+	z-index: 1;
+}
+
+.logo{
+	margin: 50px auto;
+}
+
+
+
+.heading{
+	color: white;
+	margin-left: 20px;
+}
+
+.btn-open{
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 2em;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.btn-open:hover,
+.btn-open:active{
+	background-color: transparent;
+	color: white;
+}
+
+.menu-close{
+	color: white;
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.nav{
+	margin-top: 50px;
+	list-style: none;
+	display: block;
+}
+
+.nav>li{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid white;
+	overflow: hidden;
+}
+
+.nav>li>a:hover{
+	background-color: transparent;
+}
+
+.nav>li>a.active{
+	opacity: 1;
+}
+
+a.menu{
+	position: relative;
+	padding: 16px;
+	padding-right: 25px;
+	float: right;
+	color: white;
+	opacity: .6;
+	font-size: 1.2em;
+	-wenkit-transition: opacity .2s;
+}
+
+div.bar,
+div.act{
+	position: absolute;
+	height: 50px;
+	width: 0px;
+	background-color: #16a085;
+	opacity: .5;
+	-webkit-transition:width .2s;
+}
+
+li:hover div.bar{
+	width: 300px;
+}
+
+div.act{
+	width: 300px;
+}
+
+
+
+li:hover a.menu{
+	opacity: 1;
+	text-decoration: none;
+}
+
+.head1{
+	text-transform: uppercase;
+	color: white;
+}
+
+.head{
+	text-transform: uppercase;
+	color: white;
+}
+
+.title{
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.col-md-4{
+	margin-top: 50px;
+}
+
+.home{
+	margin-top: 80px;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 1.3em;
+}
+
+.updates{
+	margin-bottom: 50px;
+}
+
+.news{
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.note{
+	list-style: none;
+}
+
+.notice{
+	padding: 10px;
+}
+
+.notice:before {
+    content: "• ";
+    color: white; /* or whatever color you prefer */
+}
+
+.marquee {
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.marquee a{
+	color: white;
+}
+
+.ver {
+  height: 300px;
+}
+
+.footer{
+	color: white;
+	background-color: rgba(255,255,255,0.1);
+}
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,255,255,0.4); 
+}
