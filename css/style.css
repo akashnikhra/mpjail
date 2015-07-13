@@ -13,7 +13,7 @@
 }
 
 .page2{
-	background-color: #333;
+	background-color: #bdc3c7;
 }
 
 nav{
@@ -38,7 +38,7 @@ nav{
 	margin-left: 20px;
 }
 
-.btn-open{
+.btn-open-1{
 	border: none;
 	background-color: transparent;
 	color: white;
@@ -47,8 +47,16 @@ nav{
 	margin-top: 10px;
 }
 
-.btn-open:hover,
-.btn-open:active{
+.btn-open-2{
+	border: none;
+	background-color: transparent;
+	font-size: 2em;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.btn-open-1:hover,
+.btn-open-1:active{
 	background-color: transparent;
 	color: white;
 }
@@ -128,8 +136,25 @@ li:hover a.menu{
 	color: white;
 }
 
-.title{
+.heading{
+	text-transform: uppercase;
+	color: black;
+}
+
+.head-2{
+	text-transform: uppercase;
+	color: black;
+}
+
+.title1{
 	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.title{
+	color: black;
 	font-size: 2.5em;
 	text-transform: uppercase;
 	letter-spacing: 10px;
@@ -183,9 +208,17 @@ li:hover a.menu{
   height: 300px;
 }
 
-.footer{
+.img{
+	margin: 50px auto;
+}
+
+.footer1{
 	color: white;
 	background-color: rgba(255,255,255,0.1);
+}
+
+.footer{
+	color: black;
 }
 
 
